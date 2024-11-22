@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="max-width: 800px; margin: 0 auto;">
+        <div class="header">
+        <h1><br /><img style="display: block; margin-left: auto; margin-right: auto; max-width: 600px; width: 100%;" src="{{ header_image }}" /></h1>
+        </div>
+        <p>&nbsp;</p>
+        <p>Oi, {{ giver }}!</p>
+        <p>Chegamos a mais uma edi&ccedil;&atilde;o do amigo secreto dos primos! Dessa vez, o presente ser&aacute; uma caneca ou um par de meias, com valor entre R$20 e R$30.</p>
+        <p>Veja se ningu&eacute;m est&aacute; olhando a sua tela e que n&atilde;o tem um espelho atr&aacute;s de voc&ecirc;! &#128064;</p>
+        <div style="text-align: center;">
+            <p>Seu primo secreto &eacute;...</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <h2><span style="color: #000000; background-color: #ffff99;"><strong>{{ receiver }}</strong></span></h2>
+        </div>
+        <p>&nbsp;</p>
+        <div class="footer"><em><span style="color: #858585;">este e-mail foi enviado pela vitor corporations. since 1992.</span></em></div>
+        </div>
+    </div>
+</body>
+</html>
